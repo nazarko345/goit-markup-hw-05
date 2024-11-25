@@ -720,7 +720,7 @@ margin-right: 0;
 }
 
 .input-container {
-    
+    margin-bottom: 8px;
 }
 
 .modal-title {
@@ -730,6 +730,7 @@ margin-right: 0;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 16px;
 }
 
 .modal-form {
@@ -743,6 +744,10 @@ margin-right: 0;
     line-height: 1.16667;
     letter-spacing: 0.04em;
     color: #8E8F99;
+    margin-bottom: 4px;
+    line-height: 1.17;
+    display: block;
+
 }
 
 .input-title {
@@ -760,9 +765,10 @@ margin-right: 0;
 
 .person-icon {
     position: absolute;
-    top: 11px;
     left: 16px;
     fill: #2E2F42;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .input-wrapper {
@@ -775,6 +781,7 @@ margin-right: 0;
     height: 120px;
     margin-bottom: 16px;
     margin-top: 4px;
+    position: relative;
 }
 
 .comment-area {
