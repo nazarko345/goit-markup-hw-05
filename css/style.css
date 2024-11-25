@@ -719,8 +719,17 @@ margin-right: 0;
     border: none;
 }
 
+/*.close-icon:hover,
+.close-icon:focus {
+    border: none;
+}*/
+
+.close-button:focus { 
+    border: none;
+}
+
 .input-container {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .modal-title {
@@ -879,7 +888,9 @@ margin-right: 0;
     border: 1px solid #8E8F99;
     fill: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 }
 
