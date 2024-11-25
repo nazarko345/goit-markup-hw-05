@@ -711,25 +711,19 @@ margin-right: 0;
 
 .close-button:hover .close-icon { 
     fill: #fff ;
-    border: none;
 }
 
 .close-button:focus .close-icon { 
     fill: #fff ;
-    border: none;
 }
 
-/*.close-icon:hover,
-.close-icon:focus {
-    border: none;
-}*/
-
+.close-button:hover,
 .close-button:focus { 
     border: none;
 }
 
 .input-container {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-title {
