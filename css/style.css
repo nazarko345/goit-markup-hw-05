@@ -701,7 +701,7 @@ margin-right: 0;
     right: 24px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    cursor: pointer;
 }
 
 .close-icon {
@@ -719,9 +719,11 @@ margin-right: 0;
     border: none;
 }
 
+.input-container {
+    
+}
+
 .modal-title {
-    margin-top: 72px;
-    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -754,8 +756,6 @@ margin-right: 0;
     padding-top: 11px;
     padding-bottom: 11px;
     margin-bottom: 8px;
-    
-    
 }
 
 .person-icon {
