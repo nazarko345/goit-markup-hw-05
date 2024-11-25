@@ -726,10 +726,6 @@ margin-right: 0;
     margin-bottom: 8px;
 }
 
-.pre-last {
-    margin-bottom: 16px
-}
-
 .modal-title {
     font-weight: 500;
     font-size: 16px;
@@ -769,7 +765,7 @@ margin-right: 0;
     padding-left: 38px;
     padding-top: 11px;
     padding-bottom: 11px;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .person-icon {
