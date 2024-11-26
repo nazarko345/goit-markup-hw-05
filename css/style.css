@@ -507,6 +507,7 @@ margin-right: 0;
          
 .footer-container {
     margin-right: 120px;
+    min-width: 264px;
 }            
 
 .social-media-title {
@@ -778,6 +779,7 @@ margin-right: 0;
 
 .input-wrapper {
     position: relative;
+    margin-bottom: 0;
 }
 
 .textarea-wrapper {
@@ -832,7 +834,8 @@ margin-right: 0;
 
 .agreement-cotainer {
     display: inline-flex;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px;*/
+    margin-bottom: 16px 
 }
 
 .pp-link {
